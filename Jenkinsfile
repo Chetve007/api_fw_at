@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Preparing ...') {
+        stage('Preparing') {
             steps {
                 echo "Testing.."
                 echo "BEGIN --------"
@@ -33,7 +33,7 @@ pipeline {
                 }
             }
         }
-        stage('ENDING ...') {
+        stage('Ending') {
             steps {
                 echo "END --------"
             }
